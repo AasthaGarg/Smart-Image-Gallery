@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+{% load staticfiles %}
+<body style= "background-image:url({% static 'E:\final_project\Face-Recognition-Login-System-master\djangoproject\mysite\static\images\back2.jpg' %});background-size:100% 100vh">
+
+<img src="{% static "E:\final_project\Face-Recognition-Login-System-master\djangoproject\mysite\static\images\mimg.jpg" %}"
+style="width:480px;height:480px;" >
+
+<button style="background: transparent;border: none;color: transparent;border-radius:50%;padding:30px;position:absolute;
+left:680px;top:500px" onclick="window.location.href = 'blur';">Blur</button>
+<button style="background: transparent;border: none;color: transparent;border-radius:50%;padding:30px;position:absolute;
+left:890px;top:474px" onclick="window.location.href = 'rotate';">Rota</button>
+<button style="background: transparent;border: none;color: transparent;border-radius:50%;padding:28px;position:absolute;
+left:1080px;top:400px" onclick="window.location.href = 'bright';">Bright</button>
+<button style="background: transparent;border: none;color: transparent;border-radius:50%;padding:28px;position:absolute;
+left:1205px;top:290px" onclick="window.location.href = 'face';">Reco</button>
+<button style="background: transparent;border: none;color: transparent;border-radius:50%;padding:28px;position:absolute;
+left:1310px;top:150px" onclick="window.location.href = 'contrast';">Cont</button>
+<button style="background: transparent;border: none;color: transparent;border-radius:50%;padding:28px;position:absolute;
+left:1375px;top:20px" onclick="window.location.href = 'mirror';">Mirr</button>
+<button style="background: transparent;border: none;color: transparent;border-radius:50%;padding:30px;position:absolute;
+left:460px;top:500px" onclick="window.location.href = 'choose';">Choo</button>
+
+</body>
+</html>
